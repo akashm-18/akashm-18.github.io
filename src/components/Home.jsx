@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/heroimage.jpg";
-import { TbArrowNarrowRight } from "react-icons/tb";
+// import { TbArrowNarrowRight } from "react-icons/tb";
 import { Link } from "react-scroll";
 const Home = () => {
    return (
@@ -26,7 +26,7 @@ const Home = () => {
                      className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer ">
                      Portfolio
                      <span className="pl-3 group-hover:rotate-90 duration-300">
-                        <TbArrowNarrowRight />
+                        {/* <TbArrowNarrowRight /> */}
                      </span>
                   </Link>
                </div>
